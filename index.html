@@ -1,11 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peddy</title>
+
+    <!-- Tailwind  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- style  -->
+    <style>
+        .lato {
+            font-family: "Lato";
+        }
+    </style>
 </head>
-<body>
-    
+
+<body class="lato">
+    <header>
+        <!-- Navbar Start  -->
+        <div class="navbar bg-base-100 w-11/12 mx-auto">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost font-black text-xl"><img src="images/logo.webp" alt="">Peddy</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <img src="https://img.icons8.com/?size=24&id=34105&format=png" alt="">
+            </div>
+        </div>
+        <!-- Navbar end  -->
+    </header>
+
+    <main>
+
+        <!-- Hero Content Start  -->
+        <section id="Hero">
+
+            <div class="w-8/12 mx-auto items-center my-8">
+
+                <!-- Hero Text  -->
+                <div class="items-center text-center mb-12">
+                    <div>
+                        <p class="font-black text-slate-600 ">Bringing Families Together ❤️‍🔥</p>
+
+                        <h1 class="font-black text-7xl text-black my-10">Your Path to Adoption Starts Here</h1>
+
+                        <p class="text-base ">It is a long established fact that a reader will be distracted by the
+                            readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+                    </div>
+                    <div>
+                        <button class="btn btn-accent text-white bg-teal-800 px-6 my-8">View More</button>
+                    </div>
+                </div>
+                <!-- Hero Text  End -->
+
+                <!-- Hero Banner / PIC  Start-->
+                <div>
+                    <img src="images/pet.webp" alt="">
+                </div>
+                <!-- Hero Banner / PIC  End -->
+
+            </div>
+
+        </section>
+        <!-- Hero Content End -->
+
+        <!-- Categorie Section Start  -->
+        <section id="Main-Categorie">
+            <!-- Categorise Text -->
+            <div class="text-center">
+                <h1 class="font-black text-4xl text-black">Adopt Your Best Friend</h1>
+
+                <p class="w-6/12 mx-auto text-inherit my-6">It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at its layout. The point of using Lorem
+                    Ipsum is that it has a.</p>
+            </div>
+
+            <!-- Categories Buttons  -->
+            <div>
+
+            </div>
+        </section>
+        <!-- Categorie Section End  -->
+
+        <!-- Animalls Pic And All Start -->
+        <section id="Main-Project">
+
+            <div>
+                <!-- Pic and Details -->
+                <div>
+
+                </div>
+
+                <!-- Just Pic  -->
+                <div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- Animalls Pic And All End   -->
+    </main>
+
+
+    <footer>
+        <div class="bg-black sm:flex py-28 px-36 justify-between items-center ">
+
+            <div>
+                <p class="flex">
+                    <img class="p-2" src="images/logo.webp" alt="">
+                    <span class="font-black text-3xl text-white ">Peddy</span>
+                </p>
+
+                <p class="pb-4 text-white">
+                    Location: av. Washington 165, NY CA 54003 <br>
+                    Phone: +31 85 964 47 25 <br>
+                    Email: info@yourdomain.com <br>
+                    Openings hours: 9.00 AM - 5.00 PM
+                </p>
+
+                <p class="flex">
+                    <img src="https://img.icons8.com/?size=48&id=118497&format=png" alt="">
+
+                    <img src="https://img.icons8.com/?size=48&id=cMRBi0rI3iwb&format=png" alt="">
+
+                    <img src="https://img.icons8.com/?size=48&id=Xy10Jcu1L2Su&format=png" alt="">
+
+                    <img src="https://img.icons8.com/?size=48&id=9a46bTk3awwI&format=png" alt="">
+
+                </p>
+            </div>
+
+
+            <div>
+                <h1 
+                class="text-white font-bold mb-5">Useful Links</h1>
+
+                <ul 
+                class="text-gray-500">
+                    <li><a href="">Home</a></li>
+                    <li> <a href="">About Us</a></li>
+                    <li><a href="">Animals</a></li>
+                    <li><a href="">Foundation</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <div>
+                <h1
+                class="font-bold text-white text-lg mb-6">Drop a Message</h1> 
+                <div>
+                    <input
+                    class="border rounded-lg my-4 bg-neutral-900 text-center py-1 " type="email" placeholder="Enter your email">
+                </div>
+                <div>
+                    <button class="btn btn-accent text-white bg-teal-800 px-12  py-3 border rounded-lg">View More</button>
+                </div>
+            </div>
+
+        </div>
+    </footer>
 </body>
+
 </html>
